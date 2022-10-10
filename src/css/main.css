@@ -3,13 +3,7 @@ body {
 }
 
 h1, p {
+  text-color: #ffffff;
   text-align: center;
-}
-
-h1 {
-  font-family: 'Silkscreen', cursive;
-}
-
-p {
   font-family: 'Silkscreen', cursive;
 }
