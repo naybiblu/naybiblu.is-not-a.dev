@@ -9,10 +9,6 @@ h1, p {
   font-family: 'Silkscreen', cursive;
 }
 
-img {
-  border-radius: 50%;
-}
-
 div {
   display: flex;
   justify-content: center;
