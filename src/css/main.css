@@ -48,10 +48,6 @@ a {
   color: yellow;
 }
       
-a:visited {
-   color: white;
-}
-      
 #exit > p {
    padding: 5px 5px 5px 10px;
    background-color: white;
