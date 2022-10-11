@@ -1,0 +1,102 @@
+body {
+  background-color: white;
+  font-family: "Bebas Neue", cursive;
+}
+      
+div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+      
+#up {
+  padding: 26% 0% 0% 0%;
+}
+      
+.button {
+  opacity: 0;
+  filter: invert(100%);
+}
+      
+#logo {
+  padding: 0% 0% 0% 0%;
+  z-index: 1;
+}
+      
+#exit {
+  z-index: 2;
+}
+      
+#logo:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;;
+}
+      
+#logo > p {
+  padding: 20px 5px 2px 10px;
+  height: 130px;
+  width: 140px;
+  background-color: white;
+  font-size: 70px;
+  border: 7px solid black;
+  line-height: 60px;
+}
+      
+a {
+  text-decoration: none;
+  color: yellow;
+}
+      
+a:visited {
+   color: white;
+}
+      
+#exit > p {
+   padding: 5px 5px 5px 10px;
+   background-color: white;
+   font-size: 30px;
+   margin-right: -155px;
+   margin-bottom: -80px;
+   color: cyan;
+}
+      
+@keyframes shake {
+   10%, 90% {
+     transform: translate3d(-1px, 0, 0);
+   }
+      
+   20%, 80% {
+     transform: translate3d(2px, 0, 0);
+   }
+      
+   30%, 50%, 70% {
+     transform: translate3d(-4px, 0, 0);
+   }
+      
+   40%, 60% {
+     transform: translate3d(4px, 0, 0);
+   }
+}
+      
+@keyframes fadeOutUp {
+   0% {
+     opacity: 1;
+   }
+
+   100% {
+     opacity: 0;
+     transform: translate3d(0, -20%, 0);
+   }
+} 
+      
+@keyframes fadeOutDown {
+   0% {
+     opacity: 1;
+   }
+
+   100% {
+     opacity: 0;
+     transform: translate3d(0, 20%, 0);
+   }
+}
