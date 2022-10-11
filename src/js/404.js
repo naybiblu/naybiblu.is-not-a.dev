@@ -4,10 +4,10 @@ var audio = new Audio("./../../resources/easter-eggs/easter-egg-1.mp3");
 
 trigger.addEventListener("click", async () => {
   if (bStyle.backgroundColor === "") {
-    bStyle.backgroundColor === "#00008b"
+    bStyle.backgroundColor = "#00008b"
     audio.play(); 
   } else {
-    bStyle.backgroundColor === "";
-    audio.pause();
+    bStyle.backgroundColor = "";
+    audio.load();
   }
 });
