@@ -8,6 +8,11 @@ p {
   color: white;
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+  color: red;
+}
      
 #text {
   width: 100%;
@@ -33,7 +38,6 @@ p {
   width: 120px;
   border: 7px solid white;
   font-size: 70px;
-  color: red;
 }
      
 img {
