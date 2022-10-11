@@ -9,7 +9,9 @@ h1, p {
   text-align: center;
 }
 
-h1 {
+h1
+
+#title {
   border: 7px solid #ffffff;
   font-size: 70px;
 }
