@@ -9,6 +9,15 @@ h1, p {
   text-align: center;
 }
 
+h1 {
+  border: 7px solid #ffffff;
+  font-size: 70px;
+}
+
+image {
+  border-radius: 50%;
+}
+
 div {
   display: flex;
   justify-content: center;
