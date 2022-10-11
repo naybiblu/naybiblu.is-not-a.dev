@@ -96,3 +96,31 @@ a {
      transform: translate3d(0, 20%, 0);
    }
 }
+
+@keyframes fadetoB {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: gray;
+  }
+      
+  100% {
+    background-color: black;
+  }
+}
+      
+@keyframes fadetoW {
+  0% {
+    background-color: black;
+  }
+
+  50% {
+    background-color: gray;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
