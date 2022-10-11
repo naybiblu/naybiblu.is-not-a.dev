@@ -23,7 +23,7 @@ p {
 }
 
 img {
-  border-radius: 3px;
+  border-radius: 50%;
   border: 7px solid white;
   margin-bottom: -80px;
 }
