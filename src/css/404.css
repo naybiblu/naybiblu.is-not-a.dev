@@ -4,12 +4,10 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
-h1, p {
+p {
   color: #ffffff;
   text-align: center;
 }
-
-h1
 
 #title {
   border: 7px solid #ffffff;
@@ -17,12 +15,11 @@ h1
 }
 
 image {
-  border-radius: 50%;
+  border-radius: 3px;
 }
 
 div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
 }
