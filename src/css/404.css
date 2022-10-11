@@ -1,12 +1,12 @@
 body {
   padding: 70px 0;
   background-color: #00008B;
+  font-family: "Bebas Neue", cursive;
 }
 
 h1, p {
   color: #ffffff;
   text-align: center;
-  font-family: 'Silkscreen', cursive;
 }
 
 div {
