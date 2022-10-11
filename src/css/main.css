@@ -49,7 +49,7 @@ a {
 }
       
 #exit > p {
-   padding: 5px 5px 5px 10px;
+   padding: 5px 10px 5px 10px;
    background-color: white;
    font-size: 30px;
    margin-right: -155px;
@@ -97,7 +97,7 @@ a {
    }
 }
 
-@keyframes fadetoB {
+@keyframes fadeToBlack {
   0% {
     background-color: white;
   }
@@ -111,7 +111,7 @@ a {
   }
 }
       
-@keyframes fadetoW {
+@keyframes fadeToWhite {
   0% {
     background-color: black;
   }
