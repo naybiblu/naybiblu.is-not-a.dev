@@ -16,14 +16,16 @@ const links = [
 let index = 0;
     
 placeholder.addEventListener("click", async () => { 
-  if (body.backgroundColor === "") {
+  if (body.backgroundColor !== "") return;
     center.innerHTML = `<a href=${links[0]}>${menu[0]}</a>`;
     body.backgroundColor = "black";
     body.animation = "fadeToBlack 0.3s";
     center.style.color = "white";
     center.style.backgroundColor = "black";
     center.style.borderColor = "white";
-    for (var i of buttons) i.style.opacity = "1";
+    for (var i of buttons) {
+        i.style.opacity = "1";
+        i.style.cursor = "pointer";
    }
 });
     
@@ -35,7 +37,10 @@ exit.addEventListener("click", async() => {
     center.style.color = "";
     center.style.backgroundColor = "";
     center.style.borderColor = "";
-    for (var i of buttons) i.style.opacity = "";
+    for (var i of buttons) {
+        i.style.opacity = "";
+        i.style.cursor = "";
+    }
 });
     
 up.addEventListener("click", () => {
