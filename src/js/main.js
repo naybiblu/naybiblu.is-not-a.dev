@@ -18,6 +18,7 @@ let index = 0;
 placeholder.addEventListener("click", async () => { 
   if (body.backgroundColor !== "") return;
     center.innerHTML = `<a href=${links[0]}>${menu[0]}</a>`;
+    exit.style.cursor = "pointer";
     body.backgroundColor = "black";
     body.animation = "fadeToBlack 0.3s";
     center.style.color = "white";
@@ -31,6 +32,7 @@ placeholder.addEventListener("click", async () => { 
     
 exit.addEventListener("click", async() => {
   if (exit.style.opacity === "") return;
+    exit.style.cursor = "";
     body.backgroundColor = "";
     body.animation = "fadeToWhite 0.3s";
     center.innerHTML = "naybi<br>blu.";
