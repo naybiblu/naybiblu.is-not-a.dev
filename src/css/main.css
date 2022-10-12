@@ -15,17 +15,19 @@ div {
 .button {
   opacity: 0;
   filter: invert(100%);
+  -webkit-tap-highlight-color: transparent;
 }
       
 #logo {
   padding: 0% 0% 0% 0%;
   z-index: 1;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
       
 #exit {
   z-index: 2;
-  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
       
 #logo > p {
