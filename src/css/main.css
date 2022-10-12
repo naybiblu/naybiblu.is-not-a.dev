@@ -1,4 +1,5 @@
 body {
+  padding: 70px 0% 0% 0%;
   background-color: white;
   font-family: "Bebas Neue", cursive;
 }
@@ -11,10 +12,6 @@ div {
   flex-direction: column;
 }
       
-#up {
-  padding: 26% 0% 0% 0%;
-}
-      
 .button {
   opacity: 0;
   filter: invert(100%);
@@ -23,10 +20,12 @@ div {
 #logo {
   padding: 0% 0% 0% 0%;
   z-index: 1;
+  cursor: pointer;
 }
       
 #exit {
   z-index: 2;
+  cursor: pointer;
 }
       
 #logo > p {
