@@ -9,7 +9,9 @@ send.addEventListener("click", async () => {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({ content: msg.value })
-  }).catch(err => alert("A wild error appeared! Please use evade move."));
+  }).catch(err => {
+  if (err) return alert("A wild error appeared! Please use evade move." + err);
   alert("Nice one! The message has been sent!");
   window.location.href = "https://naybiblu.is-not-a.dev";
+  });
 });
