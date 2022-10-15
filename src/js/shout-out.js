@@ -6,8 +6,7 @@ send.addEventListener("click", async () => {
   fetch("https://naypi.is-not-a.dev/api/e-mail", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-      "Accept": "application/json"
+      "Content-Type": "application/json; charset=UTF-8",
     }, 
     body: JSON.stringify({ content: msg.value }),
   }).catch(err => {
