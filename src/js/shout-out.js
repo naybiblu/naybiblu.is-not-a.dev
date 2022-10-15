@@ -1,0 +1,15 @@
+const send = document.getElementById("send");
+const msg = document.getElementById("message");
+      
+send.addEventListener("click", async () => {
+  if (!msg.value) return alert("MESSAGE! GIVE ME A MESSAGE!!!");
+  fetch("https://naypi.is-not-a.dev/api/e-mail", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ content: msg.value })
+  }).catch(err => alert("A wild error appeared! Please use evade move."));
+  alert("Nice one! The message has been sent!");
+  window.location.href = "https://naybiblu.is-not-a.dev";
+});
