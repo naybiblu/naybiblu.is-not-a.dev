@@ -3,6 +3,7 @@ const msg = document.getElementById("message");
       
 send.addEventListener("click", async () => {
   if (!msg.value) return alert("MESSAGE! GIVE ME A MESSAGE!!!");
+  event.preventDefault()
   fetch("https://naypi.is-not-a.dev/api/e-mail", {
     method: "POST",
     headers: {
