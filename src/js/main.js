@@ -11,7 +11,7 @@ const menu = ["about<br>me.", "blog<br>spot.", "shout<br>out."];
 const links = [
   "https://facebook.com/justcallmesupernyvhie",
   "https://naybiblu.is-not-a.dev",
-  ""
+  "./../../main/shout-out"
 ];
 let index = 0;
     
