@@ -9,7 +9,6 @@ send.addEventListener("click", async () => {
       "Content-Type": "application/json"
     }, 
     body: JSON.stringify({ content: msg.value }),
-    mode: 'no-cors',
   }).catch(err => {
     if (err) {
       return alert("Oh, no! A wild error appeared! Please use evade move. " + err);
