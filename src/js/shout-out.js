@@ -11,7 +11,7 @@ send.addEventListener("click", async () => {
     mode: 'no-cors', 
     body: JSON.stringify({ content: msg.value })
   }).catch(err => {
-  if (err) return alert("Oh, no! A wild error appeared! Please use evade move." + err);
+  if (err) return alert("Oh, no! A wild error appeared! Please use evade move. " + err);
   alert("Nice one! The message has been sent!");
   window.location.href = "https://naybiblu.is-not-a.dev";
   });
