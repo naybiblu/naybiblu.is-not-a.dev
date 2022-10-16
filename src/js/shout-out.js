@@ -13,6 +13,7 @@ send.addEventListener("submit", async (event) => {
     credentials: 'same-origin', 
     body: JSON.stringify({ content: msg.value }),
   })
+  console.log(res);
   if (res.ok) {
     alert("Oh, no! A wild error appeared! Please use evade.\n" + err);
   } else {
