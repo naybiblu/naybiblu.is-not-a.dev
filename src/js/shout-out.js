@@ -17,5 +17,7 @@ send.addEventListener("submit", async (event) => {
       alert("Nice one! The message has been sent!");
       window.location.href = "https://naybiblu.is-not-a.dev";
     })
-    .catch(err => alert("Oh, no! A wild error appeared! Please use evade.\n" + err));
+    .catch(err => {
+      alert("Oh, no! A wild error appeared! Please use evade.\n" + err);
+    });
 });
