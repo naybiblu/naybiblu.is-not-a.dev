@@ -8,14 +8,18 @@ send.addEventListener("submit", async (event) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json; charset=UTF-8",
-    }, 
+    },
+    cache: 'no-cache',
+    credentials: 'same-origin', 
     body: JSON.stringify({ content: msg.value }),
-  }).catch(err => {
-    if (err) {
-      return alert("Oh, no! A wild error appeared! Please use evade move. " + err);
-    } else {
-      alert("Nice one! The message has been sent!");
-      window.location.href = "https://naybiblu.is-not-a.dev";
-    }
-  });
+  })
+    .then(res => {
+      if (res) {
+        alert("Nice one! The message has been sent!");
+        window.location.href = "https://naybiblu.is-not-a.dev";
+      }
+    })
+    .catch(err => {
+      if (err) alert("Oh, no! A wild error appeared! Please use evade move. " + err);
+    });
 });
