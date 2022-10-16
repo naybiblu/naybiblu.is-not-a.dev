@@ -5,7 +5,7 @@ send.addEventListener("submit", async (event) => {
   if (!msg.value) return alert("MESSAGE! GIVE ME A MESSAGE!!!");
   event.preventDefault();
   try {
-    fetch("https://naypi.is-not-a.dev/api/e-mail", {
+    fetch('https://naypi.is-not-a.dev/api/e-mail', {
       method: "POST",
       headers: {
         "Content-Type": "application/json; charset=UTF-8",
