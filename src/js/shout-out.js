@@ -12,7 +12,7 @@ send.addEventListener("submit", async (event) => {
     cache: 'no-cache',
     credentials: 'same-origin', 
     body: JSON.stringify({ content: msg.value }),
-  });
+  })
     .catch(err => {
       if (err) {
         alert("Oh, no! A wild error appeared! Please use evade.\n" + err);
