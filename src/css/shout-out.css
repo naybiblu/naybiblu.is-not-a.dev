@@ -44,3 +44,9 @@ textarea {
 img {
   padding-top: 30px;
 }
+
+@media screen and (max-width: 379px) {
+  body {
+    padding-top: 120px;
+  }
+}
