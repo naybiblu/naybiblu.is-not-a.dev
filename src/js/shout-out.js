@@ -13,7 +13,6 @@ send.addEventListener("submit", async (event) => {
     credentials: 'same-origin', 
     body: JSON.stringify({ content: msg.value }),
   })
-    .then(res => res.json());
     .then(res => {
       alert("Nice one! The message has been sent!");
       window.location.href = "https://naybiblu.is-not-a.dev";
