@@ -13,7 +13,7 @@ send.addEventListener("submit", async (event) => {
     credentials: 'same-origin', 
     body: JSON.stringify({ content: msg.value }),
   });
-  if (res.ok) {
+  if (res.status === 269) {
     alert("Nice one! The message has been sent!");
     window.location.href = "https://naybiblu.is-not-a.dev";
   }
