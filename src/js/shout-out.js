@@ -14,8 +14,8 @@ send.addEventListener("submit", async (event) => {
     body: JSON.stringify({ content: msg.value }),
   })
   console.log(res);
-  if (res.ok) {
-    alert("Oh, no! A wild error appeared! Please use evade.\n" + err);
+  if (!res.ok) {
+    alert("Oh, no! A wild error appeared! Please use evade.);
   } else {
     alert("Nice one! The message has been sent!");
     window.location.href = "https://naybiblu.is-not-a.dev";
