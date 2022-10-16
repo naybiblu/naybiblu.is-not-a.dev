@@ -18,5 +18,4 @@ send.addEventListener("submit", async (event) => {
       window.location.href = "https://naybiblu.is-not-a.dev";
     }
   });
-      alert(msg.value);
 });
