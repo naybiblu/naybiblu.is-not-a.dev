@@ -3,8 +3,8 @@ const msg = document.getElementById("message");
       
 send.addEventListener("submit", async (event) => {
   if (!msg.value) return alert("MESSAGE! GIVE ME A MESSAGE!!!");
-  event.preventDefault()
-  const res = await fetch("https://naypi.is-not-a.dev/api/e-mail", {
+  event.preventDefault();
+  fetch("https://naypi.is-not-a.dev/api/e-mail", {
     method: "POST",
     headers: {
       "Content-Type": "application/json; charset=UTF-8",
