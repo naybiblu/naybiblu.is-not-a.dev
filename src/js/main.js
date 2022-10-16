@@ -32,6 +32,7 @@ placeholder.addEventListener("click", async () => { 
     
 exit.addEventListener("click", async() => {
   if (exit.style.opacity === "") return;
+    index = 0;
     exit.style.cursor = "";
     body.backgroundColor = "";
     body.animation = "fadeToWhite 0.3s";
