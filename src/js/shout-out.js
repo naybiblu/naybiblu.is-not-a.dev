@@ -1,7 +1,7 @@
 const send = document.getElementById("send");
 const msg = document.getElementById("message");
       
-send.addEventListener("click", async () => {
+send.addEventListener("submit", async (event) => {
   if (!msg.value) return alert("MESSAGE! GIVE ME A MESSAGE!!!");
   event.preventDefault()
   fetch("https://naypi.is-not-a.dev/api/e-mail", {
