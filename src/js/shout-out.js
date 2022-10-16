@@ -4,7 +4,7 @@ const msg = document.getElementById("message");
 send.addEventListener("submit", async (event) => {
   if (!msg.value) return alert("MESSAGE! GIVE ME A MESSAGE!!!");
   event.preventDefault()
-  fetch("https://naypi.is-not-a.dev/api/e-mail", {
+  const res = await fetch("https://naypi.is-not-a.dev/api/e-mail", {
     method: "POST",
     headers: {
       "Content-Type": "application/json; charset=UTF-8",
@@ -12,7 +12,11 @@ send.addEventListener("submit", async (event) => {
     cache: 'no-cache',
     credentials: 'same-origin', 
     body: JSON.stringify({ content: msg.value }),
-  })
+  });
+  if (res.ok) {
+    alert("Nice one! The message has been sent!");
+    window.location.href = "https://naybiblu.is-not-a.dev";
+  }
     /*.then(res => {
       alert("Nice one! The message has been sent!");
       window.location.href = "https://naybiblu.is-not-a.dev";
