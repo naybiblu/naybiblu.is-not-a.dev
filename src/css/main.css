@@ -27,7 +27,6 @@ div {
 #logo {
   padding: 0% 0% 0% 0%;
   z-index: 1;
-  cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
       
@@ -44,11 +43,16 @@ div {
   font-size: 70px;
   border: 7px solid black;
   line-height: 60px;
+  cursor: pointer;
 }
       
 a {
   text-decoration: none;
   color: yellow;
+}
+
+a:hover {
+  color: white;
 }
       
 #exit > p {
