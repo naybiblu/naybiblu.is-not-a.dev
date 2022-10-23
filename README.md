@@ -21,6 +21,8 @@
    src="https://img.shields.io/badge/MONGODB-00008B?style=for-the-badge&logo=mongodb&logoColor=4EA94B"/>
   <img
    src="https://img.shields.io/badge/DISCORD%20API-00008B?style=for-the-badge&logo=discord&logoColor=blue"/>
+  <img
+   src="https://img.shields.io/badge/NODEMAILER-00008B?style=for-the-badge&logo=nodemailer&logoColor=white"/>
 </p>
 <hr>
 <p align="center">
