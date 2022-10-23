@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Loading secrets
-        run: node -e "console.log(process.env);"
+        run: |
+          node -e "console.log(process.env);"
+          echo "$secrets"
         env: 
           RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
