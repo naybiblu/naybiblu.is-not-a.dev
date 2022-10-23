@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: oNaiPs/secrets-to-env-action@v1
-          with:
-            secrets: ${{ toJSON(secrets) }}
+        with:
+          secrets: ${{ toJSON(secrets) }}
