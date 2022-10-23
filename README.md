@@ -2,10 +2,10 @@
   naybiblu.is-not-a.dev
 </h1>
 <div align="center">
-  A website made with:<br>
+  <p>A website made with:<br></p>
   <img  
     src="https://img.shields.io/badge/GITHUB PAGES-00008B?style=for-the-badge&logo=Github%20Pages&logoColor=white"/>
-  <br>Supported with nAyPI REST API, built with:
+  <p><br>Supported with nAyPI REST API, built with:</p>
   <img  
     src="https://img.shields.io/badge/NODE%20JS-00008B?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
   <img  
