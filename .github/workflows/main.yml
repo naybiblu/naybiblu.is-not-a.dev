@@ -1,10 +1,17 @@
-- name: Installs node installer
-  run: npm install -g n
+on: push
 
-- name: Updates node
-  run: n lts
+jobs:
+  start-up:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Installs node installer
+        run: npm install -g n
 
-- name: Loads secrets
-  run: echo "Loading secrets..."
-  env:
-    RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
+      - name: Updates node
+        run: n lts
+
+      - name: Loads secrets
+        run: echo "Loading secrets..."
+        env:
+          RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
