@@ -1,16 +1,9 @@
+name: Start-up
 on: push
-
 jobs:
-  start-up:
+  load-env:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Installs node installer
-        run: npm install -g n
-
-      - name: Updates node
-        run: n lts
-
       - name: Loads secrets
         run: echo "Loading secrets..."
         env:
