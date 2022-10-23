@@ -12,7 +12,9 @@
     src="https://img.shields.io/badge/EXPRESS%20JS-00008B?style=for-the-badge&logo=express&logoColor=white"/>
   <img  
     src="https://img.shields.io/badge/MONGODB-00008B?style=for-the-badge&logo=mongodb&logoColor=4EA94B"/>
-  <br><br>
+</p>
+<hr>
+<p align="center">
   <br>Want to see this amazing website? Click below!<br>
   <a href="https://naybiblu.is-not-a.dev">
     <img
