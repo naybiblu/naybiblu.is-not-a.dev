@@ -5,6 +5,8 @@
   A website made with
   <br><br>
   <br>Want to see this amazing website? Click below!<br>
-  <img
-   src="https://img.shields.io/badge/TELEPORT-00008B?style=for-the-badge&logo=none&logoColor=white"
+  <a href="https://naybiblu.is-not-a.dev">
+    <img
+     src="https://img.shields.io/badge/TELEPORT-00008B?style=for-the-badge&logo=none&logoColor=white"
+  </a>
 </p> 
