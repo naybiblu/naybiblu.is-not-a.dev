@@ -4,6 +4,7 @@ jobs:
   load-env:
     runs-on: ubuntu-latest
     steps:
-      - uses: oNaiPs/secrets-to-env-action@v1
-        with:
-          secrets: ${{ toJSON(secrets) }}
+      - name: Loading secrets
+        run: node -e "Tite"
+        env: 
+          RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
