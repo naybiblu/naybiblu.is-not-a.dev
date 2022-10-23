@@ -4,7 +4,8 @@
 <div align="center">
   <p>A website made with:</p>
   <img src="https://img.shields.io/badge/GITHUB%20PAGES-00008B?style=for-the-badge&logo=Github%20Pages&logoColor=white"/>
-  <p>Supported with <em>nAyPI REST API</em>, built with:</p>
+  <br>
+  <p>Supported with <strong>nAyPI REST API</strong>, built with:</p>
   <img
    src="https://img.shields.io/badge/NODE%20JS-00008B?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
   <img
