@@ -5,7 +5,7 @@
   A website made with:<br>
   <img  
     src="https://img.shields.io/badge/GITHUB PAGES-00008B?style=for-the-badge&logo=Github%20Pages&logoColor=white"/>
-  Supported with nAyPI REST API, built with:
+  <br>Supported with nAyPI REST API, built with:
   <img  
     src="https://img.shields.io/badge/NODE%20JS-00008B?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
   <img  
