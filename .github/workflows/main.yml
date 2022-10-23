@@ -4,9 +4,12 @@ jobs:
   load-env:
     runs-on: ubuntu-latest
     steps:
-      - name: Loading secrets
-        run: |
-          node -e "console.log(process.env);"
-          echo "$secrets"
-        env: 
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
           RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
+          BRANCH: gh-pages
+          FOLDER: dist
