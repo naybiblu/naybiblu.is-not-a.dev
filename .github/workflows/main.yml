@@ -7,9 +7,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+      - name: Build
+        run: |
+          npm install
+          npm run-script build
+        env:
+          RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          RESTAPIKEY: ${{ secrets.RESTAPIKEY }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages 
+          folder: build
