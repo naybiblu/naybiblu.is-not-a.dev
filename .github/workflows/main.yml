@@ -4,11 +4,5 @@ jobs:
   load-env:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          branch: gh-pages 
+      - name: Echo
+        run: echo "Done" 
