@@ -10,7 +10,7 @@
    <img
     src="https://img.shields.io/badge/JS-00008B?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/GITHUB%20PAGES-00008B?style=for-the-badge&logo=Github%20Pages&logoColor=white"/>
-  <br><br>Supported with <u>nAyPI REST API</u>, built with:<br>
+  <br><br>Supported with <u>naynaypi REST API</u>, built with:<br>
   <img
    src="https://img.shields.io/badge/RAILWAY-00008B?style=for-the-badge&logo=railway&logoColor=white"/>
   <img
